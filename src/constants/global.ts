@@ -7,7 +7,7 @@ export const SORT_ORDER = {
 	DESC: 'DESC',
 } as const;
 
-export const REFETCH_TIME = 1000 * 1; // 10s;
+export const REFETCH_TIME = 1000 * 10; // 10s;
 
 export const COLUMNS = [
 	{ field: 'title', title: 'Title', isSortable: true },
